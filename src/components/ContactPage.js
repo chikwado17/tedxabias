@@ -21,6 +21,12 @@ class ContactPage extends Component {
                     <h3 className="text-center">Email Address</h3>
                     <p className="text-center">tedxabiastatepoly@gmail.com</p>
                   </div>
+                  <div className="card-body">
+                    <h3 className="text-center">Registration Link</h3>
+                    <center>
+                        <a className="readmore3" target="_blank" rel="noopener noreferrer" href="http://bit.ly/TEDxAbiaPolyReg">Register</a>
+                    </center>
+                  </div>
                 </div>
           </div>
         </div>
