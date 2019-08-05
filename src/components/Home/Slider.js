@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { firestoreConnect } from 'react-redux-firebase';
-import { SocialIcon } from 'react-social-icons';
+// import { SocialIcon } from 'react-social-icons';
 
 // import moment from 'moment';
 
@@ -24,8 +24,8 @@ class Slider extends Component {
                                 <img src={speaker.photoUrl} className="img-fluid" alt=""/>
                                 <h5>{speaker.fullname}</h5>
                             <div class="text-justify">
-                                <SocialIcon style={{ height: 25, width: 25 }} target="_blank" rel="noopener noreferrer" url={speaker.facebookUrl} />
-                                <SocialIcon style={{ height: 25, width: 25 }} target="_blank" rel="noopener noreferrer" url={speaker.twitterUrl} />
+                                {/* <SocialIcon style={{ height: 25, width: 25 }} target="_blank" rel="noopener noreferrer" url={speaker.facebookUrl} />
+                                <SocialIcon style={{ height: 25, width: 25 }} target="_blank" rel="noopener noreferrer" url={speaker.twitterUrl} /> */}
                                 <p className="text-muted">{speaker.bioData}</p>
                             </div>
                         </div>))} 

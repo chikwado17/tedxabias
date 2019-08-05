@@ -30,6 +30,19 @@ class AboutPage extends Component {
                     </div>
                   </div>
             </div>
+
+
+            <div className="NavLink_h1">
+                <h1><span style={{color:'red'}}>TEDx AbiaStatePoly</span></h1>
+                <div class="card">
+                    <div class="card-body">
+                      <p className="text-justify">TEDxAbiaStatePoly is a TEDx event born out of a strong desire to see students from the Polytechnic community lead exceptional lives within and outside school.
+Needless to say, Polytechnic students are seen as being inferior to their contemporaries from universities, this affects their self-image, their attitude to study and consequently their contribution to society.</p>
+                      <p className="text-justify">For our maiden event, the theme is "THRIVE" which carefully captures this concern.
+We hope to create conversations that translate to action in real time.</p>
+                    </div>
+                  </div>
+            </div>
         </div>
         <Footer/>
       </div>

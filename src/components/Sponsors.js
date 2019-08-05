@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import { firestoreConnect } from 'react-redux-firebase';
 import Rotate from 'react-reveal/Zoom'; 
 import Footer from '../components/Footer/Footer';
+import Carosel from './Home/Carosel';
+
 
 const mapStateToProps = (state) => ({
   sponsors: state.firestore.ordered.sponsors
@@ -13,6 +15,7 @@ class Sponsors extends Component {
     const { sponsors } = this.props;
     return (
       <div>
+      <Carosel title={'Sponsors'}/>
           <div className="container">
               <div className="how-section1">
               <div className="row">

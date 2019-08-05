@@ -10,7 +10,7 @@ body {
     height:75vh !important;
     box-sizing: border-box;
     margin-top:40px;
-    padding: 30px;
+
     background-color: #f8f8f8;
   }
 
@@ -102,10 +102,25 @@ how-section3{
 }
 
 
+.readmore{
+  outline: 2px solid red;
+  display: inline-block;
+  padding:10px;
+}
+
+.readmore2{
+  outline: 2px solid red;
+  display: inline-block;
+  padding:10px;
+  text-align: center;
+  margin-bottom: 0px;
+}
 
 
-
-
+.img-fluid{
+  width:100%;
+  height: 55%;
+}
 
 
 /* end of how */

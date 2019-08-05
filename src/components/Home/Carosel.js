@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
-import img3 from '../../assets/images/img3.jpg';
+import tedx1 from '../../assets/images/tedx3.jpg';
 import Rotate from 'react-reveal/Zoom';
 
 
@@ -15,7 +15,7 @@ class Carosel extends Component {
                 title: this.props.title,
                 description:
                 'TEDx events are organized by curious individuals who seek to discover ideas and spark conversations in their own community. TEDx events include live speakers and recorded TED Talks, and are organized independently under a free license granted by TED.',
-                image: [img3]
+                image: [tedx1]
                 
             },
         ];

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { firestoreConnect } from 'react-redux-firebase';
 
+
 // import moment from 'moment';
 
 
@@ -26,9 +27,13 @@ class MainSponsors extends Component {
                                 <p className="text-muted">{sponsor.bioData}</p>
                             </div>
                         </div>))} 
+                        
                     </div>
                 </div>
-            </div>
+                <div className="readmore2">
+                    <a style={{textAlign:'center'}} target="_blank" rel="noopener noreferrer" href="https://paystack.com/pay/0o52ctsfg6">Sponsorship</a>
+                </div>
+            </div>  
         </div>
      
     )

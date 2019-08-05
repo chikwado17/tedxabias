@@ -18,22 +18,22 @@ class Tickets extends Component {
                     <div className="col-md-4 col-xs-4 img-hover-zoom">
                       <img className="ticket_section_image" src={tic} alt=""/>
                       <div className="ticket_section_text">
-                        <h3>Support <br/> N10000</h3>
-                        <button type="button" class="btn btn-light btn-lg">Purchase</button>
+                        <h3><br/> Pay for a student </h3>
+                        <a target="_blank" rel="noopener noreferrer" href="https://paystack.com/pay/TEDxAbiaStatePolyTickets"> <button type="button" className="btn btn-light btn-lg">Purchase</button> </a>
+                      </div>
+                    </div>
+                    <div className="col-md-4 col-xs-4 img-hover-zoom">
+                    <img className="ticket_section_image" src={tic} alt=""/>
+                    <div className="ticket_section_text">  
+                    <h3><br/> Sponsorship <br/></h3>
+                    <a target="_blank" rel="noopener noreferrer" href="https://paystack.com/pay/0o52ctsfg6"> <button type="button" className="btn btn-light btn-lg">Purchase</button> </a>
                       </div>
                     </div>
                     <div className="col-md-4 col-xs-4 img-hover-zoom">
                     <img className="ticket_section_image" src={tic} alt=""/>
                     <div className="ticket_section_text">
-                    <h3>Standard <br/> N5000</h3>
-                    <button type="button" class="btn btn-light btn-lg">Purchase</button>
-                      </div>
-                    </div>
-                    <div className="col-md-4 col-xs-4 img-hover-zoom">
-                    <img className="ticket_section_image" src={tic} alt=""/>
-                    <div className="ticket_section_text">
-                    <h3>Early Bird <br/> N2500</h3>
-                    <button type="button" class="btn btn-light btn-lg">Purchase</button>
+                    <h3><br/> Early Bird <br/></h3>
+                    <button type="button" className="btn btn-light btn-lg">Purchase</button>
                       </div>
                     </div>
                  </div>

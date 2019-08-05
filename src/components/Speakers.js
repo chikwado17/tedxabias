@@ -4,6 +4,7 @@ import { firestoreConnect } from 'react-redux-firebase';
 import Rotate from 'react-reveal/Zoom';         
 import Footer from '../components/Footer/Footer';      
 import { SocialIcon } from 'react-social-icons';
+import Carosel from './Home/Carosel';
 
 const mapStateToProps = (state) => ({
     speakers: state.firestore.ordered.speakers
@@ -16,6 +17,7 @@ class Speakers extends Component {
             const { speakers } = this.props;
         return ( 
         <div>
+        <Carosel title={'Speakers'}/>
             <div className="container">
                 <div className="how-section1">
                     <div className="row">
