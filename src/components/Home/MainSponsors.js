@@ -23,7 +23,7 @@ class MainSponsors extends Component {
                         <div key={sponsor.id} className="col-md-3 col-sm-3">
                                 <img width="200px" src={sponsor.logoUrl} className="" alt=""/>
                                 <h4>{sponsor.name}</h4>
-                            <div class="text-justify">
+                            <div className="text-justify">
                                 <p className="text-muted">{sponsor.bioData}</p>
                             </div>
                         </div>))} 

@@ -14,6 +14,8 @@ body {
     background-color: #f8f8f8;
   }
 
+
+
 .ticket{
     background-color: red;
 }
@@ -76,18 +78,18 @@ how-section3{
   margin: 10% 0;
 }
 
-.how-section1 h4{
+/* .how-section1 h4{
   color: red;
   font-weight: bold;
   font-size: 30px;
-}
-.how-section1 .subheading{
+} */
+/* .how-section1 .subheading{
   color:#fff;
   font-size: 20px;
-}
-.how-section1 .row{
+} */
+/* .how-section1 .row{
   margin-top: 10%;
-}
+} */
 .how-img {
   text-align: center;
 }
@@ -106,6 +108,7 @@ how-section3{
   outline: 2px solid red;
   display: inline-block;
   padding:10px;
+  margin-bottom: 12px;
 }
 
 .readmore2{
@@ -127,10 +130,18 @@ how-section3{
 
 
 .img-fluid{
+  margin-top:10px;
   width:100%;
-  height: 55%;
+  height:50%;
+  outline: 5px solid #fff;
 }
 
+
+.team-margin{
+  margin-bottom: -52px !important;
+  margin-right: -8px !important;
+
+}
 
 /* end of how */
 
@@ -219,8 +230,6 @@ clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 58% 100%, 50% 75%, 0% 75%)
   height: 120px;
   background-color: #ba160c;
 }
-
-
 
 
 button {
@@ -336,7 +345,7 @@ button {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
   
   .slider-content .inner button{
@@ -450,11 +459,6 @@ button {
     }
 
 
-    .how-section1 .row{
-      padding: 10px !important;
-    }
-
-
     .how-section3 .row{
       padding: 10%;
       margin-top: 10% 0;
@@ -465,10 +469,16 @@ button {
     }
 
 
+    .team-margin{
+      margin-bottom: -82px !important;
+      margin-right: 20px !important;
+      margin-left: 10px !important;
+    
+    }
+    
+
+
 }
-
-
-
 
 
   
@@ -480,30 +490,22 @@ button {
   }
 
 
-  @media (max-width: 1200px) {
-    
-     body{
-      margin-top: -33px;
-     }
-
-     .slider-content .inner h1 {
-      font-size: 30px;
+@media (max-width: 1200px) {
+  
+    body{
+    margin-top: -33px;
     }
+
+    .slider-content .inner h1 {
+    font-size: 30px;
   }
-
-
-
-
-
-
-
-
+}
 
 
 
 /* [1] The container */
 .img-hover-zoom {
-  height: 500px; /* [1.1] Set it as per your need */
+  height: 450px; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
 
@@ -517,10 +519,12 @@ button {
   transform: scale(1.1);
 }
 
-Iframe{
+
+Iframe {
   border:none;
   box-shadow: 0 .5rem .2rem black;
 }
+
 
 #particle {
   background-color: #b61924;
@@ -532,10 +536,13 @@ Iframe{
   z-index:0; 
 }
 
+
 canvas {
   display: block;
   vertical-align: bottom;
 }
+
+
 
 #particles-js {
   position: absolute;
@@ -543,6 +550,8 @@ canvas {
   height: 100%;
 	background: #00356B;
 }
+
+
 
 .text {
 	position: absolute;
@@ -557,11 +566,14 @@ canvas {
 	font-family: 'Open Sans', sans-serif;
 }
 
+
+
 h1 {
 	font-size: 2.25em;
 	font-weight: 700;
 	letter-spacing: -1px;
 }
+
 
 a,
 a:visited {
@@ -574,21 +586,29 @@ a:focus {
 	color:  #ba160c;
 }
 
-.ticket_section{
+
+
+.ticket_section {
   padding: 100px 0;
 }
+
+
 .ticket_section_h2{
   padding: 30px 10px;
 }
+
 
 .ticket_section_image{
   width: 200px !important;
 }
 
+
 .ticket_section_text{
   color:#ba160c;
   font-weight: 700 !important;
 }
+
+
 .btn-light{
   text-transform: capitalize !important;
   border-radius: none !important;

@@ -24,7 +24,7 @@ class Sponsors extends Component {
                       <div key={sponsor.id} className="col-md-3 col-xs-4 img-hover-zoom">
                               <img src={sponsor.logoUrl} className="img-fluid" alt=""/>
                               <h5>{sponsor.fullname}</h5>
-                          <div class="text-justify">
+                          <div className="text-justify">
                               <p id="how_section5_p" className="text-muted">{sponsor.role}</p>
                           </div>
                       </div>))} 

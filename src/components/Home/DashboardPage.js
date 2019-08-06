@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
-import img8 from '../../assets/images/img8.jpg'
-
+import tedx4 from '../../assets/images/tedx4.jpg'
 import tedx9 from '../../assets/images/tedx9.jpg'
 import tedx8 from '../../assets/images/tedx8.jpg'
 import tedx7 from '../../assets/images/tedx7.jpg'
@@ -26,7 +25,7 @@ const content = [
 		userProfile: [lead]
   },
   {
-		title: 'TED is a nonprofit devoted to spreading ideas',
+		title: 'The Polytechnic Dichotomy',
 		description:
 		'TEDx events are organized by curious individuals who seek to discover ideas and spark conversations in their own community. TEDx events include live speakers and recorded TED Talks, and are organized independently under a free license granted by TED.',
 		button: 'Read More',
@@ -35,16 +34,16 @@ const content = [
 		userProfile: [lead]
   },
   {
-		title: 'TED is a nonprofit devoted to spreading ideas',
+		title: ' Thriving in a digital and saturated market',
 		description:
 		'TEDx events are organized by curious individuals who seek to discover ideas and spark conversations in their own community. TEDx events include live speakers and recorded TED Talks, and are organized independently under a free license granted by TED.',
 		button: 'Read More',
-		image: [img8],
+		image: [tedx4],
 		user: 'Adaugo Nwankpa',
 		userProfile: [lead]
 	},
   {
-		title: 'TED is a nonprofit devoted to spreading ideas',
+		title: 'Environmental sustainability',
 		description:
 		'TEDx events are organized by curious individuals who seek to discover ideas and spark conversations in their own community. TEDx events include live speakers and recorded TED Talks, and are organized independently under a free license granted by TED.',
 		button: 'Read More',
