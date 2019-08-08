@@ -15,21 +15,21 @@ class MainTeam extends Component {
     const { team } = this.props;
     return (
   
-    
-            <div className="container">
+    <div> 
+        <div className="container">
+            <div className="how-section1">
                 <div className="row">
                         {team && team.map((teamx) => (
-                            <div key={teamx.id} className="col-md-3 col-xs-4 team-margin img-hover-zoom">
-                                    <img src={teamx.photoUrl} className="img-fluid" alt=""/>
-                                    <h5>{teamx.fullname}</h5>
-                                <div className="text-justify">
-                                    <p id="how_section5_p" className="text-muted">{teamx.role}</p>
-                                </div>
+                            <div key={teamx.id} className="col-md-3 col-sm-3">
+                                <img src={teamx.photoUrl} className="img-fluid" alt=""/>
+                                   <h5>{teamx.fullname}</h5> 
+                                        <span>{teamx.role}</span>
                             </div>
                         ))} 
                 </div>
             </div>
-      
+        </div>
+    </div>
      
      
     )

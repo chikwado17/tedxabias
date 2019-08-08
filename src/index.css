@@ -1,21 +1,87 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family:'Source Sans Pro', sans-serif;
     width: 100vw !important;
-    height:75vh !important;
+    height:100vh !important; 
     box-sizing: border-box;
-    margin-top:40px;
-
+    margin-top:49px;   
     background-color: #f8f8f8;
   }
 
 
+.activeRoute{
+  border-bottom:2px solid red;
+}
 
+.about-title h6{
+  font-weight: 700;
+  margin-top:30px;
+  margin-bottom: 10px;
+  padding:3px;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.about-title7 h6{
+  margin-top:10px;
+  margin-bottom: 10px;
+
+}
+
+.about-title4 h6{
+  font-weight: 700;
+  margin-top:60px;
+  margin-bottom: 10px;
+  padding:3px;
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+.about-title1{
+  margin-top:30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about-title2{
+  margin-top:30px;
+  margin-bottom: 10px;
+
+}
+
+.about-title3 {
+  margin:8% auto;
+  text-align: center;
+
+}
+
+.about-title3 h2 {
+  color:#fff;
+  font-weight: 700;
+  font-size:30px;
+  line-height: 3.5rem;
+  
+}
+
+.about-section{
+ margin-top:10px;
+ margin-bottom: 50px;
+}
+
+.register-now{
+  background-color: #ba160c;
+  margin-top:30px;
+  height: 350px;
+}
+.focus-img{
+  width:100%;
+}
+.focus-data{
+  margin:60px 0px;
+}
+.about-titlee h1 {
+  margin-bottom: 20px;
+}
 .ticket{
     background-color: red;
 }
@@ -24,13 +90,19 @@ li{
     margin: 2px !important;
 }
   
-.navbar{
-    background:#000 !important;
-    box-shadow: 1px 1px 6px #000 !important;
+.navbar-light{
+    background:#fff !important;
 }
+
+.navbar-logo{
+  width:350px;
+}
+
 p{
-    font-family: 'Lora', serif;
-    line-height: 2rem;
+    font-family: 'Crimson Text', serif;
+    line-height: 1.5rem;
+    letter-spacing: 0.1px !important;
+   
 }
 h1{
     font-family: 'Wendy One', sans-serif;
@@ -54,16 +126,28 @@ h1{
 .section-4{
   padding:40px 0;
   color:#fff;
-  background: #e52d27;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+ background: #ba160c;
 }
 
 .section-3{
     padding:40px 0;
     background-color: #fff;
     color:#000;
+} 
+
+.section-about-page {
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  font-family: 'Merriweather', serif;
+}
+
+.section-about-page h3 {
+  font-family: 'Merriweather', serif;
+}
+
+.section-about-page p{
+
+  font-family: 'Crimson Text', serif;
 }
 
 
@@ -129,12 +213,21 @@ how-section3{
 }
 
 
+.img-fluid1{
+  margin-top:10px;
+  width: 100%;
+  height: 90%;
+  border-radius: 5px;
+}
+
 .img-fluid{
   margin-top:10px;
-  width:100%;
-  height:50%;
-  outline: 5px solid #fff;
+ 
+  width: 100%;
+  height: 60% !important;
+ border-radius: 5px;
 }
+
 
 
 .team-margin{
@@ -158,9 +251,14 @@ how-section3{
 
 
 
-
+.speaker-alignment {
+  margin: 25px ;
+}
 .speakers_h1{
   font-size: 4rem;
+}
+.speaker-name{
+  margin-bottom: 30px;
 }
 .location_font{
   font-size: 2rem;
@@ -213,8 +311,7 @@ margin-left:25em;
 /* end of footer */
 
 .NavLink_h1{
-  padding:25px 0;
-  margin: 0 15px;
+  margin: 20px auto;
 }
 .NavLink_h1 h1{
   font-size: 2rem;
@@ -242,15 +339,16 @@ button {
   -webkit-transition: all .5s ease;
           transition: all .5s ease;
   border: none;
-  background: red;
+  background:#ba160c;
   color:#fff;
   border-radius: 30px;
   text-transform: uppercase;
   box-sizing: border-box;
   padding: 15px 40px;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 13px;
   cursor: cursor;
+ 
 }
   
   button:hover {
@@ -258,6 +356,7 @@ button {
     background: #222222;
     -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
             filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.2));
+            box-shadow: 2px 2px 2px 0 #000;
   }
   
   .wrapper {
@@ -277,7 +376,7 @@ button {
   
   .slider-wrapper {
     position: relative;
-    height: 90vh;
+    height: 100vh;
     margin-top: 5px;
     overflow: hidden;
   }
@@ -293,46 +392,13 @@ button {
       position: absolute;
       width: 100%;
       height: 100%;
-      background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.9)));
-      background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+      background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.5)));
+      background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
       bottom: 0;
       left: 0;
   }
   
-  .previousButton, .nextButton {
-          position: absolute;
-          top: 50%;
-          transform: translateY(-50%);
-          z-index: 10;
-          
-          width: 32px;
-          height: 32px;
-          text-indent: -9999px;
-          cursor: pointer;
-  }
-  
-  .previousButton:hover, .nextButton:hover {
-    background: url('http://svgshare.com/i/41_.svg') no-repeat center center / 16px;
-  }
-  
-  .previousButton {
-    left: 0;
-    -webkit-transform: rotate(180deg) translateY(calc(50% + 0px));
-            transform: rotate(180deg) translateY(calc(50% + 0px));
-  }
-  
-  .previousButton:hover {
-    left: -10px;
-  }
-  
-  .nextButton {
-    right: 0;
-  }
-  
-  .nextButton:hover {
-    right: -2px;
-  }
-  
+
   .slider-content {
     text-align: center;
   }
@@ -353,23 +419,21 @@ button {
             transition-delay: 0s;
   }
   
-  .slider-content .inner h1 {
-    font-weight: 900;
+  .slider-content .inner h2 {
+    font-weight: 900 !important;
     margin: 0 auto;
-    max-width: 840px;
-    color: #FFFFFF;
-    font-size: 54px;
-    line-height: 1;
-    letter-spacing: .1rem;
+    color: red;
+    font-size: 40px;
+    max-width: 100%;
   }
   
   .slider-content .inner p {
     color: #FFFFFF;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 0.2;
     margin: 20px auto 30px;
-    max-width: 640px;
-    letter-spacing: .1rem;
+    max-width: 100%;
+    letter-spacing: 2px;
   }
   
   .slider-content section {
@@ -411,13 +475,15 @@ button {
 
     .slider-wrapper {
       position: relative;
-      height: 95vh;
-      margin-top: 5px;
+      height: 90vh;
       overflow: hidden;
     }
 
-
-    .slider-content .inner h1 {
+    .navbar-logo{
+      width:250px;
+    }
+    
+    .slider-content .inner h2 {
       font-size: 25px !important;
       margin-top: 20px  !important;
       letter-spacing: .1rem;
@@ -427,12 +493,12 @@ button {
       color: #FFFFFF;
       font-size: 15px;
       line-height: 1.2;
-      max-width: 640px;
-      letter-spacing: .1rem;
+      max-width: 100%;
+      letter-spacing: 2px;
     }
     
     body{
-      padding-top: 33px;
+      padding-top: 58px;
     }
 
     .speakers_h1{
@@ -475,8 +541,67 @@ button {
       margin-left: 10px !important;
     
     }
+  
+    .about-title3 {
+      margin:18% auto;
+      text-align: center;
     
+    }
 
+    .about-title3 h2 {
+      color:#fff;
+      font-weight: bolder;
+      font-size:28px;
+      line-height: 3.5rem;
+    }
+
+    .speakers_p{
+      font-size: 1.5em;
+    }
+
+    .about-title h6{
+      font-weight: 700;
+      margin-top:30px;
+      margin-bottom: 10px;
+      padding:3px;
+      font-size: 16px;
+      font-family: 'Merriweather', serif;
+    }
+
+    .about-title4 h6{
+      font-weight: 700;
+      margin-top:30px;
+      margin-bottom: 10px;
+      padding:3px;
+      font-size: 16px;
+      font-family: 'Merriweather', serif;
+    }
+
+    p{
+      margin:5px;
+    }
+
+    .readmore{
+      margin:0px 9px;
+    }
+
+
+    .section-about-page {
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+      font-family: 'Merriweather', serif;
+    }
+    
+    .section-about-page h3 {
+      font-family: 'Merriweather', serif;
+    }
+    
+    .section-about-page p{
+    
+      font-family: 'Crimson Text', serif;
+    }
+    
+    
 
 }
 
@@ -505,9 +630,25 @@ button {
 
 /* [1] The container */
 .img-hover-zoom {
-  height: 450px; /* [1.1] Set it as per your need */
+ /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
+
+.img-hover-zoom1 {
+ /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom1 img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom1:hover img {
+  transform: scale(1.1);
+}
+
 
 /* [2] Transition property for smooth transformation of images */
 .img-hover-zoom img {
@@ -522,19 +663,10 @@ button {
 
 Iframe {
   border:none;
-  box-shadow: 0 .5rem .2rem black;
+  box-shadow: 0 .5rem .2rem rgba(0, 0, 0, 0.2);
 }
 
 
-#particle {
-  background-color: #b61924;
-  position:fixed;
-  top:0;
-  right:0;
-  bottom:0;
-  left:0;
-  z-index:0; 
-}
 
 
 canvas {

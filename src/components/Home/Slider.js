@@ -20,10 +20,13 @@ class Slider extends Component {
                 <div className="how-section1">
                     <div className="row">
                         {speakers && speakers.map((speaker) => (
-                        <div key={speaker.id} className="col-md-3 img-hover-zoom">
-                                <img src={speaker.photoUrl} className="img-fluid" alt=""/>
-                                <h5>{speaker.fullname}</h5>
+                        <div key={speaker.id} className="col-md-3 col-sm-3">
+                               <div className="img-hover-zoom">
+                                    <img src={speaker.photoUrl} className="img-fluid1" alt=""/>
+                               </div>
+                               <h5 className="speaker-name">{speaker.fullname}</h5>
                             <div className="text-justify">
+                            
                                 {/* <SocialIcon style={{ height: 25, width: 25 }} target="_blank" rel="noopener noreferrer" url={speaker.facebookUrl} />
                                 <SocialIcon style={{ height: 25, width: 25 }} target="_blank" rel="noopener noreferrer" url={speaker.twitterUrl} /> */}
                                 <p className="text-muted">{speaker.bioData}</p>

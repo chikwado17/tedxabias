@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { firestoreConnect } from 'react-redux-firebase';
 import Rotate from 'react-reveal/Zoom'; 
 import Footer from '../components/Footer/Footer';
-import Carosel from './Home/Carosel';
 
 
 const mapStateToProps = (state) => ({
@@ -15,7 +14,12 @@ class Sponsors extends Component {
     const { sponsors } = this.props;
     return (
       <div>
-      <Carosel title={'Sponsors'}/>
+      <section className="section-about-page">
+              <div className="container">   
+                  <h3>Partners & Sponsors</h3>
+                  <p>TEDxAbiaStatePoly is proud to have some of the most creative, inspiring and innovative companies working with us to bring TEDx ideas and events to you.</p>
+              </div>
+          </section>
           <div className="container">
               <div className="how-section1">
               <div className="row">

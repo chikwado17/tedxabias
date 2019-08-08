@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-import Carosel from './Home/Carosel';
 import Footer from '../components/Footer/Footer';
 
 class ContactPage extends Component {
   render() {
     return (
       <div>
-        <Carosel title={'Contact Us'}/>
+      <section className="section-about-page">
+              <div className="container">   
+                  <h3>Contact Us</h3>
+                  <p>We always deliver and bring some of the best scientists, entrepreneurs, professionals, innovators and reformers to share ideas that would spark deep discussions and birth new ideas that will change our society.</p>
+              </div>
+          </section>
         <div className="container">
           <div className="NavLink_h1">
               <h1><span style={{color:'red'}}></span></h1>

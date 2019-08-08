@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Carosel from './Home/Carosel';
 import Footer from './Footer/Footer';
 
 
@@ -7,7 +6,12 @@ class AboutPage extends Component {
   render() {
     return (
       <div>
-        <Carosel title={'About TEDxAbiaStatePoly'}/>
+      <section className="section-about-page">
+              <div className="container">   
+                  <h3>About Us</h3>
+                  <p>We always deliver and bring some of the best scientists, entrepreneurs, professionals, innovators and reformers to share ideas that would spark deep discussions and birth new ideas that will change our society.</p>
+              </div>
+          </section>
         <div className="container">
             <div className="NavLink_h1">
                 <h1><span style={{color:'red'}}>TED</span></h1>

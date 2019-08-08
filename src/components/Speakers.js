@@ -4,7 +4,6 @@ import { firestoreConnect } from 'react-redux-firebase';
 import Rotate from 'react-reveal/Zoom';         
 import Footer from '../components/Footer/Footer';      
 import { SocialIcon } from 'react-social-icons';
-import Carosel from './Home/Carosel';
 
 const mapStateToProps = (state) => ({
     speakers: state.firestore.ordered.speakers
@@ -17,7 +16,12 @@ class Speakers extends Component {
             const { speakers } = this.props;
         return ( 
         <div>
-        <Carosel title={'Speakers'}/>
+        <section className="section-about-page">
+              <div className="container">   
+                  <h3>TEDxAbiaStatePoly 2019 Speakers</h3>
+                  <p>We always deliver and bring some of the best scientists, entrepreneurs, professionals, innovators and reformers to share ideas that would spark deep discussions and birth new ideas that will change our society.</p>
+              </div>
+          </section>
             <div className="container">
                 <div className="how-section1">
                     <div className="row">
