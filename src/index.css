@@ -1,6 +1,6 @@
 
 body {
-    font-family:'Source Sans Pro', sans-serif;
+    font-family: 'Playfair Display SC', serif;
     width: 100vw !important;
     height:100vh !important; 
     box-sizing: border-box;
@@ -99,13 +99,13 @@ li{
 }
 
 p{
-    font-family: 'Crimson Text', serif;
+    font-family: 'Vollkorn', serif;
     line-height: 1.5rem;
     letter-spacing: 0.1px !important;
    
 }
 h1{
-    font-family: 'Wendy One', sans-serif;
+  font-family: 'Playfair Display SC', serif;
 }
 
 .section-main{
