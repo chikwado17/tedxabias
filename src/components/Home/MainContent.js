@@ -62,7 +62,7 @@ class MainContent extends Component {
       <div className="container">
           <div className="row">
               <div className="col-md-12">
-              <div className="about-title2">
+              <div className="about-title-btn">
               <div className="readmore">
                       <Link to="/about">Read More</Link>
                   </div>

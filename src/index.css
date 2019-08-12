@@ -49,6 +49,12 @@ body {
 
 }
 
+.about-title-btn{
+  margin-top:30px;
+  margin-bottom: 10px;
+
+}
+
 .about-title3 {
   margin:8% auto;
   text-align: center;
@@ -99,13 +105,13 @@ li{
 }
 
 p{
-    font-family: 'Vollkorn', serif;
+    font-family:  'Alegreya Sans', sans-serif;
     line-height: 1.5rem;
     letter-spacing: 0.1px !important;
    
 }
 h1{
-  font-family: 'Playfair Display SC', serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .section-main{
@@ -220,12 +226,12 @@ how-section3{
   border-radius: 5px;
 }
 
-.img-fluid{
+.img-fluid  {
   margin-top:10px;
- 
+  
   width: 100%;
   height: 60% !important;
- border-radius: 5px;
+  border-radius: 5px;
 }
 
 
@@ -582,7 +588,7 @@ button {
     }
 
     .readmore{
-      margin:0px 9px;
+      margin:-12px 9px;
     }
 
 
@@ -601,7 +607,27 @@ button {
       font-family: 'Crimson Text', serif;
     }
     
+    .img-fluid-img{
+      margin-bottom: -30px !important;
+    }
+
+    .img-fluid-img h5 span {
+      text-align: center;
+    }
+
+    .about-title-btn{
+      margin-top:30px;
+      margin-bottom: -5px;
     
+    }
+
+    .img-fluid  {
+      margin-top:10px;
+      
+      width: 100% !important;
+      height: 70% !important;
+      border-radius: 5px;
+    }
 
 }
 

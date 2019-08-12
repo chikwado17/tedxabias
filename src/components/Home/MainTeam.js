@@ -20,10 +20,10 @@ class MainTeam extends Component {
             <div className="how-section1">
                 <div className="row">
                         {team && team.map((teamx) => (
-                            <div key={teamx.id} className="col-md-3 col-sm-3">
+                            <div key={teamx.id} className="col-md-3 col-sm-3 img-fluid-img">
                                 <img src={teamx.photoUrl} className="img-fluid" alt=""/>
-                                   <h5>{teamx.fullname}</h5> 
-                                        <span>{teamx.role}</span>
+                                <h5>{teamx.fullname}</h5> 
+                                <span>{teamx.role}</span>
                             </div>
                         ))} 
                 </div>
