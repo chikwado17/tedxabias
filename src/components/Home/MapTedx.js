@@ -23,7 +23,7 @@ class MapTedx extends Component {
                 <div>
                   <h1 className="speakers_h1">Factory Rd, Aba</h1>
                   <h4 className="location_font">Abia State Polytechnic Aba</h4>
-                  <p>Join us as we listen to African ideas worth spreading in the heart of London</p>
+                  <p>We are interested in seeing polytechnic students champion change.</p>
                 </div>
               </Fade>
            </div>

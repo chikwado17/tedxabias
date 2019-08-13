@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 
-import bg2 from '../../assets/images/bg2.jpg'
+import bg6 from '../../assets/images/bg6.jpg'
 
 
 
@@ -17,7 +17,7 @@ const content = [
 		description:
 		'x=independently Organized TED Event.',
 		button: 'Read More',
-		image: [bg2]
+		image: [bg6]
   }
   
 

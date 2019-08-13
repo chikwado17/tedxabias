@@ -53,9 +53,9 @@ class MainContent extends Component {
           <div className="row">
               <div className="col-md-12">
               <div className="about-title4">
-                  <h6>About <span style={{color:'#ba160c'}}>TEDx2019 Spring!</span> Conference</h6>
+                  <h6>About <span style={{color:'#ba160c'}}> Thrive!</span></h6>
                 </div>
-                <p>TEDxAbiaStatePoly 2019 is happening at the Abia State poly ICT Centre on September 3rd, 2019.TEDxAbiaStatePoly is an annual TEDx conference that aspires to bring together Nigeria’s best scientists, entrepreneurs, professionals, innovators and reformers to share ideas that would spark deep discussions and birth new ideas that will change our society. Last year.</p>
+                <p>Because we're tired of seeing polytechnic students live less than their best lives. We're tired of seeing polytechnic students feel inferior to their University counterparts. We are interested in seeing polytechnic students champion change.</p>
               </div>
           </div>
       </div>
@@ -92,7 +92,7 @@ class MainContent extends Component {
                 <div className="col-md-12">
                 <div className="about-title3">
                     <h2>TEDxAbiaStatePoly 2019</h2>
-                    <h2>Saturday September 3rd, 2019<br/>
+                    <h2>Saturday September 14th, 2019<br/>
                     Register Now!</h2>
                 </div>
                 </div>
